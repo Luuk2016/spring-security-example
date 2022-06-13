@@ -26,7 +26,7 @@ public class AuthenticateController {
 
             return new ResponseEntity<>(authenticateResponse, HttpStatus.OK);
         } catch (Exception e) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
+            return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
         }
     }
 }
