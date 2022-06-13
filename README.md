@@ -4,11 +4,11 @@
 
 Basic Spring Security application that uses JWT for authentication. 
 
-#### Prerequisites
+### Prerequisites
 * JDK 17
 * Maven
 
-#### Built With
+### Built With
 * [Spring](https://spring.io/) - The framework that has been used
  
 ### License
